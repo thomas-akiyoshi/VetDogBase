@@ -1,0 +1,211 @@
+/* Importa as fontes Poppins e Nunito do Google Fonts. */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Nunito:wght@400;700&display=swap');
+
+/* Define variáveis de cores e fontes para serem usadas em todo o site. */
+:root {
+    --cor-primaria: #192338; /* Cor principal, usada em textos e fundos. */
+    --cor-secundaria: #1E2E4F; /* Cor secundária, para elementos de destaque. */
+    --cor-terciaria: #31487A; /* Cor terciária, para links e botões. */
+    --cor-quaternaria: #8FB3E2; /* Cor quaternária, para hover e detalhes. */
+    --cor-quinaria: #D9E1F1; /* Cor quinária, para o fundo geral do corpo. */
+    --sombra-caixa: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra padrão para caixas. */
+    --fonte-titulo: 'Poppins', sans-serif; /* Fonte para títulos. */
+    --fonte-texto: 'Nunito', sans-serif; /* Fonte para textos corridos. */
+}
+
+/* Estilos gerais para o corpo da página. */
+body {
+    background-color: var(--cor-quinaria); /* Define a cor de fundo. */
+    font-family: var(--fonte-texto); /* Define a fonte padrão. */
+    color: var(--cor-primaria); /* Define a cor do texto. */
+    margin: 0; /* Remove a margem padrão. */
+    padding-bottom: 80px; /* Adiciona espaço na parte inferior para o rodapé. */
+}
+
+/* style.css */
+
+.site-logo {
+    max-height: 200px; /* Define a altura máxima da sua logo. Ajuste conforme necessário. */
+    width: auto;     /* Garante que a largura se ajuste automaticamente para manter a proporção. */
+    /* Outros estilos podem vir aqui, como margens, alinhamento, etc. */
+    margin-top: 1px; /* Exemplo: um pouco de espaço acima */
+    margin-left: 1%; /* Exemplo: um pouco de espaço à esquerda */
+}
+
+/* Estilo para o link da logo, se você usou a tag <a> */
+.logo-link {
+    display: block; /* Garante que o link ocupe todo o espaço necessário */
+    /* Pode adicionar padding ou margin aqui também */
+}
+
+/* Exemplo de estilo para o cabeçalho (apenas para contexto) */
+.main-header {
+    background-color: transparent; /* Cor de fundo suave para o cabeçalho */
+    padding: 10px 0; /* Espaçamento interno */
+    display: flex; /* Se quiser alinhar itens no cabeçalho (como a logo e um menu) */
+    align-items: center; /* Alinha verticalmente no centro */
+}
+
+
+/* Estilos para o cabeçalho. */
+.header {
+    background-color: var(--cor-primaria); /* Define a cor de fundo do cabeçalho. */
+    color: var(--cor-quinaria); /* Define a cor do texto do cabeçalho. */
+    padding: 1.5rem 2rem; /* Adiciona espaçamento interno. */
+    display: flex; /* Habilita o layout flexbox. */
+    justify-content: space-between; /* Alinha os itens com espaço entre eles. */
+    align-items: center; /* Alinha os itens verticalmente ao centro. */
+    box-shadow: var(--sombra-caixa); /* Adiciona uma sombra. */
+}
+
+/* Estilos para o container do título no cabeçalho. */
+.header-title {
+    display: flex; /* Habilita o layout flexbox. */
+    align-items: center; /* Alinha os itens verticalmente ao centro. */
+}
+
+/* Estilos para a imagem (logo) no cabeçalho. */
+.header-title img {
+    height: 40px; /* Define a altura da logo. */
+    margin-right: 1rem; /* Adiciona uma margem à direita. */
+}
+
+/* Estilos para o título principal (h1) no cabeçalho. */
+.header h1 {
+    font-family: var(--fonte-titulo); /* Define a fonte do título. */
+    font-size: 1.8rem; /* Define o tamanho da fonte. */
+    margin: 0; /* Remove a margem padrão. */
+}
+
+/* Estilos para o container de busca. */
+.search-container {
+    display: flex; /* Habilita o layout flexbox. */
+}
+
+/* Estilos para o campo de input da busca. */
+.search-container input {
+    padding: 0.8rem; /* Adiciona espaçamento interno. */
+    width: 300px; /* Define a largura do campo. */
+    border: 1px solid var(--cor-terciaria); /* Define a borda. */
+    border-radius: 20px 0 0 20px; /* Arredonda os cantos esquerdo. */
+    background-color: var(--cor-secundaria); /* Define a cor de fundo. */
+    color: var(--cor-quinaria); /* Define a cor do texto. */
+    font-size: 1rem; /* Define o tamanho da fonte. */
+    outline: none; /* Remove a borda de foco padrão. */
+    transition: background-color 0.3s ease; /* Adiciona uma transição suave. */
+}
+
+/* Estilos para o placeholder do campo de busca. */
+.search-container input::placeholder {
+    color: var(--cor-quaternaria); /* Define a cor do texto do placeholder. */
+}
+
+/* Estilos para o campo de busca quando em foco. */
+.search-container input:focus {
+    background-color: var(--cor-terciaria); /* Muda a cor de fundo. */
+    border-color: var(--cor-quaternaria); /* Muda a cor da borda. */
+}
+
+/* Estilos para o botão de busca. */
+.search-container button {
+    padding: 0.8rem 1.5rem; /* Adiciona espaçamento interno. */
+    background-color: var(--cor-terciaria); /* Define a cor de fundo. */
+    color: var(--cor-quinaria); /* Define a cor do texto. */
+    border: 1px solid var(--cor-terciaria); /* Define a borda. */
+    border-left: none; /* Remove a borda esquerda para unir com o input. */
+    border-radius: 0 20px 20px 0; /* Arredonda os cantos direito. */
+    cursor: pointer; /* Muda o cursor para indicar que é clicável. */
+    font-size: 1rem; /* Define o tamanho da fonte. */
+    transition: background-color 0.3s ease; /* Adiciona uma transição suave. */
+}
+
+/* Estilos para o botão de busca ao passar o mouse. */
+.search-container button:hover {
+    background-color: var(--cor-quaternaria); /* Muda a cor de fundo. */
+    color: var(--cor-primaria); /* Muda a cor do texto. */
+}
+
+/* Estilos para o conteúdo principal da página. */
+.main-content {
+    padding: 2rem; /* Adiciona espaçamento interno. */
+}
+
+/* Estilos para o container dos cards. */
+.card-container {
+    display: grid; /* Habilita o layout em grade. */
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); /* Cria colunas responsivas. */
+    gap: 1.5rem; /* Define o espaçamento entre os cards. */
+}
+
+/* Estilos para cada card. */
+.card {
+    background-color: #fff; /* Define a cor de fundo. */
+    border: 1px solid var(--cor-quaternaria); /* Define a borda. */
+    border-radius: 8px; /* Arredonda os cantos. */
+    padding: 1.5rem; /* Adiciona espaçamento interno. */
+    box-shadow: var(--sombra-caixa); /* Adiciona uma sombra. */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Adiciona transições suaves. */
+}
+
+/* Estilos para o card ao passar o mouse. */
+.card:hover {
+    transform: translateY(-5px); /* Move o card para cima. */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Aumenta a sombra. */
+}
+
+/* Estilos para o título (h2) dentro do card. */
+.card h2 {
+    font-family: var(--fonte-titulo); /* Define a fonte. */
+    color: var(--cor-terciaria); /* Define a cor do texto. */
+    margin-top: 0; /* Remove a margem superior padrão. */
+}
+
+/* Estilos para o parágrafo (p) dentro do card. */
+.card p {
+    line-height: 1.6; /* Define a altura da linha para melhor legibilidade. */
+}
+
+/* Estilos para o link (a) dentro do card. */
+.card a {
+    color: var(--cor-terciaria); /* Define a cor do link. */
+    text-decoration: none; /* Remove o sublinhado. */
+    font-weight: bold; /* Deixa o texto em negrito. */
+    transition: color 0.3s ease; /* Adiciona uma transição suave. */
+}
+
+/* Estilos para o link (a) dentro do card ao passar o mouse. */
+.card a:hover {
+    color: var(--cor-quaternaria); /* Muda a cor do link. */
+    text-decoration: underline; /* Adiciona um sublinhado. */
+}
+
+/* Estilos para o rodapé. */
+.footer {
+    background-color: var(--cor-secundaria); /* Define a cor de fundo. */
+    color: var(--cor-quinaria); /* Define a cor do texto. */
+    text-align: center; /* Centraliza o texto. */
+    padding: 1.5rem; /* Adiciona espaçamento interno. */
+    position: relative; /* Define a posição relativa para controle. */
+    bottom: 0; /* Fixa o rodapé na parte inferior. */
+    width: 100%; /* Faz o rodapé ocupar toda a largura. */
+    margin-top: 2rem; /* Adiciona uma margem superior. */
+}
+
+/* Estilos para a lista não ordenada (ul) no rodapé. */
+.footer ul {
+    list-style: none; /* Remove os marcadores da lista. */
+    padding: 0; /* Remove o preenchimento padrão. */
+    margin: 0; /* Remove a margem padrão. */
+}
+
+/* Estilos para os links (a) no rodapé. */
+.footer a {
+    color: var(--cor-quinaria); /* Define a cor do link. */
+    text-decoration: none; /* Remove o sublinhado. */
+    transition: color 0.3s ease; /* Adiciona uma transição suave. */
+}
+
+/* Estilos para os links (a) no rodapé ao passar o mouse. */
+.footer a:hover {
+    color: var(--cor-quaternaria); /* Muda a cor do link. */
+}

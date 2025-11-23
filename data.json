@@ -1,0 +1,249 @@
+
+[
+{
+"nome": "Golden Retriever",
+"porte": "Porte Grande",
+"Temperamento": "Amigável, Inteligente, Dedicado",
+"Expectativa de Vida": "10-12 anos",
+"link": "https://www.akc.org/dog-breeds/golden-retriever/"
+},
+{
+"nome": "Pug",
+"porte": "Porte Pequeno",
+"Temperamento": "Afetuoso, Brincalhão, Teimoso",
+"Expectativa de Vida": "12-15 anos",
+"link": "https://www.akc.org/dog-breeds/pug/"
+},
+{
+"nome": "Pinscher Alemão",
+"porte": "Porte pequeno ou médio",
+"Temperamento": "Inteligente, Vivaz, Temperamento balanceado, Espirituoso, Amoroso, Familial",
+"Expectativa de Vida": "12-14 anos",
+"link": "https://www.akc.org/dog-breeds/german-pinscher/" 
+},
+{
+"nome": "Bulldog Francês",
+"porte": "Porte Pequeno",
+"Temperamento": "Brincalhão, Afetuoso, Adaptável",
+"Expectativa de Vida": "10-12 anos",
+"link": "https://www.akc.org/dog-breeds/french-bulldog/"
+},
+{
+"nome": "Shih Tzu",
+"porte": "Porte Pequeno",
+"Temperamento": "Afetuoso, Extrovertido, Brincalhão",
+"Expectativa de Vida": "10-16 anos",
+"link": "https://www.akc.org/dog-breeds/shih-tzu/"
+},
+{
+"nome": "Fila Brasileiro",
+"porte": "Porte Grande",
+"Temperamento": "Corajoso, Leal, Protetor",
+"Expectativa de Vida": "9-11 anos",
+"link": "https://www.akc.org/dog-breeds/fila-brasileiro/"
+},
+{
+"nome": "Yorkshire Terrier",
+"porte": "Porte Pequeno (Toy)",
+"Temperamento": "Corajoso, Energético, Inteligente",
+"Expectativa de Vida": "13-16 anos",
+"link": "https://www.akc.org/dog-breeds/yorkshire-terrier/"
+},
+{
+"nome": "Vira-lata (SRD)",
+"porte": "Variado",
+"Temperamento": "Variado, geralmente adaptável e leal",
+"Expectativa de Vida": "12-18 anos",
+"link": "https://www.peritoanimal.com.br/racas-de-cachorro-vira-lata-tipos-nomes-e-fotos-23996.html"
+},
+{
+"nome": "Akita",
+"porte": "Porte Grande",
+"Temperamento": "Leal, Afetuoso, Protetor",
+"Expectativa de Vida": "10-14 anos",
+"link": "https://www.akc.org/dog-breeds/akita/"
+},
+{
+"nome": "Basset Hound",
+"porte": "Porte Médio",
+"Temperamento": "Amigável, Calmo, teimoso",
+"Expectativa de Vida": "10-12 anos",
+"link": "https://www.akc.org/dog-breeds/basset-hound/"
+},
+{
+"nome": "Beagle",
+"porte": "Porte Pequeno",
+"Temperamento": "Amigável, Curioso, Leal",
+"Expectativa de Vida": "10-15 anos",
+"link": "https://www.akc.org/dog-breeds/beagle/"
+},
+{
+"nome": "Boxer",
+"porte": "Porte Médio-Grande",
+"Temperamento": "Brincalhão, Energético, Leal",
+"Expectativa de Vida": "10-12 anos",
+"link": "https://www.akc.org/dog-breeds/boxer/"
+},
+{
+"nome": "Chow Chow",
+"porte": "Porte Médio",
+"Temperamento": "Leal, Reservado, Silencioso",
+"Expectativa de Vida": "8-12 anos",
+"link": "https://www.akc.org/dog-breeds/chow-chow/"
+},
+{
+"nome": "Cocker Spaniel",
+"porte": "Porte Médio",
+"Temperamento": "Amigável, Carinhoso, Energético",
+"Expectativa de Vida": "10-14 anos",
+"link": "https://www.akc.org/dog-breeds/cocker-spaniel/"
+},
+{
+"nome": "Dachshund",
+"porte": "Porte Pequeno",
+"Temperamento": "Corajoso, Teimoso, Brincalhão",
+"Expectativa de Vida": "12-16 anos",
+"link": "https://www.akc.org/dog-breeds/dachshund/"
+},
+{
+"nome": "Dalmatian",
+"porte": "Porte Grande",
+"Temperamento": "Energético, Brincalhão, Sensível",
+"Expectativa de Vida": "11-13 anos",
+"link": "https://www.akc.org/dog-breeds/dalmatian/"
+},
+{
+"nome": "Doberman",
+"porte": "Porte Grande",
+"Temperamento": "Leal, Destemido, Alerta",
+"Expectativa de Vida": "10-12 anos",
+"link": "https://www.akc.org/dog-breeds/doberman-pinscher/"
+},
+{
+"nome": "German Shepherd",
+"porte": "Porte Grande",
+"Temperamento": "Confiante, Corajoso, Inteligente",
+"Expectativa de Vida": "7-10 anos",
+"link": "https://www.akc.org/dog-breeds/german-shepherd-dog/"
+},
+{
+"nome": "Corgi",
+"porte": "Porte Pequeno-Médio",
+"Temperamento": "Inteligente, Afetuoso, Brincalhão",
+"Expectativa de Vida": "12-13 anos",
+"link": "https://www.akc.org/dog-breeds/pembroke-welsh-corgi/"
+},
+{
+"nome": "Tekel",
+"porte": "Porte Pequeno",
+"Temperamento": "Corajoso, Teimoso, Brincalhão",
+"Expectativa de Vida": "12-16 anos",
+"link": "https://www.akc.org/dog-breeds/dachshund/"
+},
+{
+"nome": "West Terrier",
+"porte": "Porte Pequeno",
+"Temperamento": "Confiante, Inteligente, Brincalhão",
+"Expectativa de Vida": "13-15 anos",
+"link": "https://www.akc.org/dog-breeds/west-highland-white-terrier/"
+},
+{
+"nome": "Border Collie",
+"porte": "Porte Médio",
+"Temperamento": "Inteligente, Energético, Leal",
+"Expectativa de Vida": "12-15 anos",
+"link": "https://www.akc.org/dog-breeds/border-collie/"
+},
+{
+"nome": "Collie",
+"porte": "Porte Médio-Grande",
+"Temperamento": "Inteligente, Amigável, Leal",
+"Expectativa de Vida": "10-14 anos",
+"link": "https://www.akc.org/dog-breeds/collie/"
+},
+{
+"nome": "Galgo",
+"porte": "Porte Grande",
+"Temperamento": "Gentil, Nobre, Doce",
+"Expectativa de Vida": "10-13 anos",
+"link": "https://www.akc.org/dog-breeds/greyhound/"
+},
+{
+"nome": "Chihuahua",
+"porte": "Porte Pequeno (Toy)",
+"Temperamento": "Leal, Charmoso, Confiante",
+"Expectativa de Vida": "14-16 anos",
+"link": "https://www.akc.org/dog-breeds/chihuahua/"
+},
+{
+"nome": "Poodle",
+"porte": "Variado (Standard, Miniature, Toy)",
+"Temperamento": "Inteligente, Ativo, Sociável",
+"Expectativa de Vida": "10-18 anos",
+"link": "https://www.akc.org/dog-breeds/poodle-standard/"
+},
+{
+"nome": "Rottweiler",
+"porte": "Porte Grande",
+"Temperamento": "Calmo, Confiante, Corajoso",
+"Expectativa de Vida": "9-10 anos",
+"link": "https://www.akc.org/dog-breeds/rottweiler/"
+},
+{
+"nome": "Jack Russel",
+"porte": "Porte Pequeno",
+"Temperamento": "Alerta, Curioso, Vivaz",
+"Expectativa de Vida": "12-14 anos",
+"link": "https://www.akc.org/dog-breeds/russell-terrier/"
+},
+{
+"nome": "Papillon",
+"porte": "Porte Pequeno (Toy)",
+"Temperamento": "Feliz, Alerta, Amigável",
+"Expectativa de Vida": "14-16 anos",
+"link": "https://www.akc.org/dog-breeds/papillon/"
+},
+{
+"nome": "Bulldog Inglês",
+"porte": "Porte Médio",
+"Temperamento": "Doce, Devotado, Calmo",
+"Expectativa de Vida": "8-10 anos",
+"link": "https://www.akc.org/dog-breeds/bulldog/"
+},
+
+{
+"nome": "Pastor Australiano",
+"porte": "Porte Médio",
+"Temperamento": "Inteligente, Orientado para o trabalho, Exuberante",
+"Expectativa de Vida": "12-15 anos",
+"link": "https://www.akc.org/dog-breeds/australian-shepherd/"
+},
+{
+"nome": "Pastor Belga Malinois",
+"porte": "Porte Grande",
+"Temperamento": "Confiante, Inteligente, Trabalhador",
+"Expectativa de Vida": "14-16 anos",
+"link": "https://www.akc.org/dog-breeds/belgian-malinois/"
+},
+{
+"nome": "Pastor de Shetland",
+"porte": "Porte Pequeno",
+"Temperamento": "Brincalhão, Energético, Brilhante",
+"Expectativa de Vida": "12-14 anos",
+"link": "https://www.akc.org/dog-breeds/shetland-sheepdog/"
+},
+{
+"nome": "Pastor Branco Suíço",
+"porte": "Porte Grande",
+"Temperamento": "Confiante, Alerta, Leal",
+"Expectativa de Vida": "12-14 anos",
+"link": "https://www.fci.be/en/nomenclature/WHITE-SWISS-SHEPHERD-DOG-347.html"
+},
+{
+"nome": "Cão de Gado Australiano",
+"porte": "Porte Médio",
+"Temperamento": "Alerta, Curioso, Agradável",
+"Expectativa de Vida": "12-16 anos",
+"link": "https://www.akc.org/dog-breeds/australian-cattle-dog/"
+}
+]
