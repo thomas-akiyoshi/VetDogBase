@@ -27,13 +27,13 @@
         "imagem": "beagle.jpg"
     },
     {
-        "nome": "border-collie",
+        "nome": "Border Collie",
         "porte": "Porte Médio",
         "temperamento": "Inteligente, Energético, Leal",
         "expectativa_de_vida": "12-15 anos",
         "texto_informativo": "Reconhecido por sua altíssima inteligência, energia e dedicação ao trabalho, o Border Collie estabelece uma interação intensa com o tutor, exigindo constante estímulo mental e físico. Sua necessidade de pastoreio pode se manifestar no comportamento de \"reunir\" membros da família ou objetos.\nAs principais predisposições clínicas incluem displasia de quadril e cotovelo, Anomalia do Olho do Collie (CEA) e a sensibilidade a múltiplos medicamentos (MDR1), exigindo cautela na farmacoterapia.",
         "link": "https://www.akc.org/dog-breeds/border-collie/",
-        "imagem": "border collie.jpg"
+        "imagem": "border-collie.jpg"
     },
     {
         "nome": "Boxer",
@@ -51,7 +51,7 @@
         "expectativa_de_vida": "10-12 anos",
         "texto_informativo": "Um cão de companhia afetuoso, charmoso e sociável, o Buldogue Francês adapta-se bem à vida urbana, sendo muito ligado ao seu tutor. Seu temperamento é geralmente equilibrado, mas pode demonstrar teimosia moderada.\nÉ um paciente com alta incidência da Síndrome Braquicefálica Obstrutiva das Vias Aéreas (SBOVA), exigindo atenção especial à termorregulação e respiração. Outras condições incluem hemivértebras (problemas de coluna), dermatite de dobras e luxação de patela.",
         "link": "https://www.akc.org/dog-breeds/french-bulldog/",
-        "imagem": "buldog frances.jpg"
+        "imagem": "buldog-frances.jpg"
     },
     {
         "nome": "Buldogue Inglês",
@@ -60,7 +60,7 @@
         "expectativa_de_vida": "8-10 anos",
         "texto_informativo": "A raça é caracterizada por ser calma, corajosa e extremamente leal. Embora seja um companheiro dedicado, sua estrutura física limita a tolerância ao exercício e ao calor, e a interação é marcada por uma dependência de ambientes frescos.\nCompartilha com outros braquicefálicos a Síndrome Braquicefálica, mas também é altamente predisposto à displasia de quadril e cotovelo, dermatite de dobras e prolapso da glândula da terceira pálpebra (\"olho de cereja\").",
         "link": "https://www.akc.org/dog-breeds/bulldog/",
-        "imagem": "buldog ingles.jpg"
+        "imagem": "buldog-ingles.jpg"
     },
     {
         "nome": "Cão de Gado Australiano",
@@ -69,7 +69,7 @@
         "expectativa_de_vida": "12-16 anos",
         "texto_informativo": "Este cão é alerta, extremamente inteligente e protetor, demonstrando desconfiança natural com estranhos. Requer socialização precoce e alta atividade para gerenciar seu vigor e instinto de trabalho.\nAs principais preocupações clínicas envolvem a surdez (frequentemente associada à pelagem manchada/merle), atrofia progressiva de retina (APR) e displasia de quadril.",
         "link": "https://www.akc.org/dog-breeds/australian-cattle-dog/",
-        "imagem": "cao de gado australiano.jpg"
+        "imagem": "cao-de-gado-australiano.jpg"
     },
     {
         "nome": "Chihuahua",
@@ -150,7 +150,7 @@
         "expectativa_de_vida": "7-10 anos",
         "texto_informativo": "Conhecido como o \"gigante gentil\", o Dogue Alemão é amigável, gentil e paciente. Seu grande porte exige treinamento precoce, mas ele é extremamente ligado ao tutor.\nDevido ao seu tamanho, a Torção Gástrica (GDV) é uma emergência crítica comum. Outras preocupações incluem a cardiomiopatia dilatada (DCM), osteossarcoma (câncer ósseo) e displasia de quadril.",
         "link": "https://www.akc.org/dog-breeds/great-dane/",
-        "imagem": "dog alemao.jpg"
+        "imagem": "dog-alemao.jpg"
     },
     {
         "nome": "Fila Brasileiro",
@@ -159,7 +159,7 @@
         "expectativa_de_vida": "9-11 anos",
         "texto_informativo": "Um cão protetor, corajoso e notoriamente calmo, o Fila Brasileiro possui uma lealdade extrema e uma desconfiança instintiva de estranhos (característica da Ojeriza). Exige um tutor com experiência e manejo especializado.\nAs principais preocupações ortopédicas são a displasia de quadril e cotovelo.",
         "link": "https://www.akc.org/dog-breeds/fila-brasileiro/",
-        "imagem": "fila brasileiro.jpg"
+        "imagem": "fila-brasileiro.jpg"
     },
     {
         "nome": "Galgo",
@@ -177,7 +177,7 @@
         "expectativa_de_vida": "10-12 anos",
         "texto_informativo": "Esta raça é reconhecida por sua inteligência, dedicação e temperamento extremamente amigável, sendo highly sociável e fácil de treinar. Estabelece um forte vínculo afetivo com o tutor e a família, demonstrando uma natureza equilibrada e adaptável.\nClinicamente, o Golden Retriever apresenta uma alta prevalência de neoplasias (como Hemangiossarcoma e Linfoma), Displasia de quadril e cotovelo e hipotireoidismo. Também há predisposição para estenose aórtica subvalvar (SAS) e diversas alergias cutâneas.",
         "link": "https://www.akc.org/dog-breeds/golden-retriever/",
-        "imagem": "golden retriever.jpg"
+        "imagem": "golden-retriever.jpg"
     },
     {
         "nome": "Husky Siberiano",
@@ -195,7 +195,7 @@
         "expectativa_de_vida": "12-14 anos",
         "texto_informativo": "Um cão enérgico, destemido e inteligente, o Jack Russell exige uma quantidade significativa de atividade e estímulo. A interação com o tutor é intensa, mas ele pode ser propenso a cavar e latir, devido ao seu alto impulso de caça.\nAs principais preocupações ortopédicas incluem a luxação de patela e a doença de Legg-Calvé-Perthes.",
         "link": "https://www.akc.org/dog-breeds/russell-terrier/",
-        "imagem": "jack russel.jpg"
+        "imagem": "jack-russel.jpg"
     },
     {
         "nome": "Old English Sheepdog",
@@ -204,7 +204,7 @@
         "expectativa_de_vida": "10-13 anos",
         "texto_informativo": "O Old English Sheepdog é adaptável, gentil e com um temperamento brincalhão (o \"palhaço\" do mundo canino). É um excelente cão de família, estabelecendo um vínculo de grande companheirismo.\nAs predisposições clínicas incluem a displasia de quadril, hipotireoidismo e condições oculares como a catarata e a Atrofia Progressiva de Retina (APR).",
         "link": "https://www.akc.org/dog-breeds/old-english-sheepdog/",
-        "imagem": "Old English Sheepdog.jpg"
+        "imagem": "old-english-sheepdog.jpg"
     },
     {
         "nome": "Papillon",
@@ -222,7 +222,7 @@
         "expectativa_de_vida": "7-10 anos",
         "texto_informativo": "Esta raça é leal, inteligente e possui uma natureza nobre. É um cão de trabalho extremamente versátil e um excelente cão de guarda, exigindo um vínculo de respeito e treinamento consistente com o tutor.\nAs patologias ortopédicas são a grande preocupação, notadamente a displasia de quadril e cotovelo. Outras condições relevantes incluem a mielopatia degenerativa, a insuficiência pancreática exócrina e a fístula perianal.",
         "link": "https://www.akc.org/dog-breeds/german-shepherd-dog/",
-        "imagem": "pastor alemao.jpg"
+        "imagem": "pastor-alemao.jpg"
     },
     {
         "nome": "Pastor Australiano",
@@ -231,7 +231,7 @@
         "expectativa_de_vida": "12-15 anos",
         "texto_informativo": "Um cão inteligente, ativo e versátil, o Pastor Australiano é fortemente orientado para o trabalho, exigindo um tutor que possa fornecer alta atividade física e mental.\nA preocupação genética mais crítica é a sensibilidade a medicamentos (MDR1) e a Anomalia do Olho do Collie (CEA). Também são predispostos à displasia de quadril e epilepsia.",
         "link": "https://www.akc.org/dog-breeds/australian-shepherd/",
-        "imagem": "pastor australiano.jpg"
+        "imagem": "pastor-australiano.jpg"
     },
     {
         "nome": "Pastor Belga Malinois",
@@ -240,7 +240,7 @@
         "expectativa_de_vida": "14-16 anos",
         "texto_informativo": "Cão inteligente, atento e de extrema energia, o Malinois é essencialmente um cão de trabalho. A interação com o tutor é focada em tarefas, e ele exige uma dedicação altíssima para evitar problemas comportamentais.\nA principal preocupação ortopédica é a displasia de quadril e cotovelo. Outras condições incluem a epilepsia e a pannus (ceratite superficial crônica).",
         "link": "https://www.akc.org/dog-breeds/belgian-malinois/",
-        "imagem": "pastor malinoa.jpg"
+        "imagem": "pastor-malinoa.jpg"
     },
     {
         "nome": "Pastor Shetland",
@@ -249,7 +249,7 @@
         "expectativa_de_vida": "12-14 anos",
         "texto_informativo": "O Sheltie é leal, afetuoso e altamente responsivo, estabelecendo um forte laço com a família. É um cão de pastoreio mais reservado que o Collie e pode ser sensível a ruídos intensos.\nAssim como outras raças de pastoreio, as preocupações incluem a Anomalia do Olho do Collie (CEA) e a sensibilidade a medicamentos (MDR1). Há também predisposição ao hipotireoidismo e à epilepsia.",
         "link": "https://www.akc.org/dog-breeds/shetland-sheepdog/",
-        "imagem": "pastor shetland.jpg"
+        "imagem": "pastor-shetland.jpg"
     },
     {
         "nome": "Pastor Branco Suíço",
@@ -258,7 +258,7 @@
         "expectativa_de_vida": "12-14 anos",
         "texto_informativo": "Um cão alerta, vital e com bom temperamento de trabalho, o Pastor Branco Suíço é muito ligado ao seu tutor, embora seja reservado e cauteloso com estranhos.\nAs condições ortopédicas dominantes são a displasia de quadril e cotovelo. Também é importante monitorar a possível ocorrência de mielopatia degenerativa e sensibilidade gástrica.",
         "link": "https://www.fci.be/en/nomenclature/WHITE-SWISS-SHEPHERD-DOG-347.html",
-        "imagem": "pastor suiço.jpg"
+        "imagem": "pastor-suico.jpg"
     },
     {
         "nome": "Pinscher",
@@ -303,7 +303,7 @@
         "expectativa_de_vida": "11-13 anos",
         "texto_informativo": "Com um temperamento independente, leal e corajoso, o Scottish Terrier pode ser teimoso, mas demonstra apego. Possui um forte impulso de caça, característico dos Terriers.\nEsta raça tem uma alta predisposição a várias formas de neoplasias, incluindo o melanoma e tumores de bexiga. Também é notável a doença de von Willebrand (distúrbio hemorrágico).",
         "link": "https://www.akc.org/dog-breeds/scottish-terrier/",
-        "imagem": "scottish terrier.jpg"
+        "imagem": "scottish-terrier.jpg"
     },
     {
         "nome": "Shih Tzu",
@@ -348,6 +348,6 @@
         "expectativa_de_vida": "13-16 anos",
         "texto_informativo": "O Yorkshire é enérgico, destemido e extremamente apegado ao tutor, desenvolvendo um forte vínculo de dependência. Seu temperamento pode ser desafiador devido à tendência à possessividade e dificuldade em treinamento sanitário.\nO manejo clínico deve focar na luxação de patela, colapso de traqueia, shunt portossistêmico e doença periodontal de início precoce e grave.",
         "link": "https://www.akc.org/dog-breeds/yorkshire-terrier/",
-        "imagem": "york shire.jpg"
+        "imagem": "york-shire.jpg"
     }
 ]
