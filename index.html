@@ -4,41 +4,104 @@
     <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>VetDogBase - Guia veterinário de raças de cachorros</title>
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
     <link rel="stylesheet" href="style.css">
-    <div id="lista-itens"></div>
-
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40JuKakVxf0JNGj5Iq9VXxP3+JdHaEZg8GzWz8B6qJ7l5c2KkP6g1q4Z/p4t4r4q5f5f5f5f5Q==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
     <header class="header">
         <div class="main-header">
-    <a href="index.html" class="logo-link"> <img src="img/vdb.logo.branca.png" alt="Logo VetDogBase - Sua Base de Dados Veterinária Canina" class="site-logo">
-    </a>
-        </div>
-        <div class="search-container">
-            <input type="text" id="searchInput" placeholder="Pesquisa por raça, porte ou temperamento...">
-            <button id="botao-busca">Buscar</button>
+            <a href="index.html" class="logo-link">
+                <img src="img/vdb.logo.branca.png" alt="Logo VetDogBase" class="site-logo">
+            </a>
         </div>
     </header>
 
+    <!-- Seção do banner principal com um carrossel de slides -->
+    <section id="banner" style="background: #F9F3EC;">
+        <div class="container">
+            <div class="swiper main-swiper">
+                <div class="swiper-wrapper">
+                    <!-- Primeiro slide -->
+                    <div class="swiper-slide py-5">
+                        <div class="row banner-content align-items-center">
+                            <div class="img-wrapper col-md-5">
+                                <img src="img/caramelo feliz.jpg" class="img-fluid">
+                            </div>
+                            <div class="content-wrapper col-md-7 p-5 mb-5">
+                                <h2 class="banner-title display-1 fw-normal">Conhecimento que Transforma em <span class="text-primary">Amor</span></h2>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Segundo slide -->
+                    <div class="swiper-slide py-5">
+                        <div class="row banner-content align-items-center">
+                            <div class="img-wrapper col-md-5">
+                                <img src="img/cães sentados carrossel 1.jpg" class="img-fluid">
+                            </div>
+                            <div class="content-wrapper col-md-7 p-5 mb-5">
+                                <div class="secondary-font text-primary text-uppercase mb-4">Encontre a raça ideal</div>
+                                <h2 class="banner-title display-1 fw-normal">Pesquise por porte, temperamento e muito mais</h2>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Terceiro slide -->
+                    <div class="swiper-slide py-5">
+                        <div class="row banner-content align-items-center">
+                            <div class="img-wrapper col-md-5">
+                                <img src="img/cães  andando carrossel 1.jpg" class="img-fluid">
+                            </div>
+                            <div class="content-wrapper col-md-7 p-5 mb-5">
+                                <h2 class="banner-title display-1 fw-normal">Explore Nossas Raças. Seu Guia Técnico</h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Paginação do carrossel -->
+                <div class="swiper-pagination mb-5"></div>
+            </div>
+        </div>
+    </section>
+
     <main class="main-content">
-        <section class="card-container">
-            <!-- <h2>Golden Retriever</h2>
-            <p>Porte grande</p>
-            <p>Personalidade: Temperamento balanceado, Inteligente, Afetuoso</p>
-            <p>Expectativa de vida: 10 a 12 anos</p>
-            <a href="https://www.akc.org/dog-breeds/golden-retriever/" target="_blank">Saiba mais</a>-->
+
+        <!-- Nova seção de pesquisa -->
+        <section class="search-section">
+            <div class="search-container">
+                <input type="text" id="searchInput" placeholder="Pesquise por raça, porte ou temperamento...">
+                <button id="showAllBtn">Mostrar Todos</button>
+            </div>
+        </section>
+
+         <!-- Os resultados da pesquisa (sugestões e cards) aparecerão aqui -->
+        <div id="suggestions-container"></div>
+        <div id="cards-container"></div>
+        
+        <section class="gallery-section">
+            <div class="image-gallery">
+                <!-- As imagens da galeria serão inseridas aqui dinamicamente -->
+            </div>
         </section>
     </main>
 
     <footer class="footer">
-        <ul>
-        <li>
-            <a href="https://www.instagram.com/akiyoshi.th/" target="_blank" rel="noopener noreferrer">Instagram</a>
-        </li>
-
-        </ul>
+        <div class="footer-content">
+            <p class="footer-tagline">VetDogBase: Conhecimento que une você ao seu melhor amigo!</p>
+            <div class="footer-social">
+                <a href="https://www.instagram.com/akiyoshi.th/" target="_blank" rel="noopener noreferrer" class="social-link">
+                    <i class="fab fa-instagram"></i>
+                    <span>Siga no Instagram - Veterinário</span>
+                </a>
+                <a href="https://github.com/thomas-akiyoshi/VetDogBase/tree/main" target="_blank" rel="noopener noreferrer" class="social-link">
+                    <i class="fab fa-github"></i>
+                    <span>Explore nosso código no GitHub</span>
+                </a>
+            </div>
+            <p class="footer-copyright">&copy; 2025 VetDogBase. Todos os direitos reservados.</p>
+        </div>
     </footer>
-    <script src ="script.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
 
 </body>
 </html>
