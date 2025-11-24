@@ -27,7 +27,7 @@ document.addEventListener('DOMContentLoaded', () => {
             galleryItem.dataset.breed = dog.nome; // Adiciona o data attribute ao container
 
             const img = document.createElement('img');
-            img.src = `img/${dog.imagem}`;
+            img.src = `assets/img/${dog.imagem}`;
             img.alt = `Cachorro da raça ${dog.nome}`;
             
             // Cria o elemento do título
@@ -60,7 +60,7 @@ document.addEventListener('DOMContentLoaded', () => {
             card.id = `card-${dog.nome.replace(/\s+/g, '-')}`; // Adiciona um ID único
 
             card.innerHTML = `
-                <img src="img/${dog.imagem}" alt="Cachorro da raça ${dog.nome}" class="card-img">
+                <img src="assets/img/${dog.imagem}" alt="Cachorro da raça ${dog.nome}" class="card-img">
                 <h2>${dog.nome}</h2>
                 <p><strong>Porte:</strong> ${dog.porte}</p>
                 <p><strong>Temperamento:</strong> ${dog.temperamento}</p>
