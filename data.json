@@ -1,249 +1,353 @@
-
 [
-{
-"nome": "Golden Retriever",
-"porte": "Porte Grande",
-"Temperamento": "Amigável, Inteligente, Dedicado",
-"Expectativa de Vida": "10-12 anos",
-"link": "https://www.akc.org/dog-breeds/golden-retriever/"
-},
-{
-"nome": "Pug",
-"porte": "Porte Pequeno",
-"Temperamento": "Afetuoso, Brincalhão, Teimoso",
-"Expectativa de Vida": "12-15 anos",
-"link": "https://www.akc.org/dog-breeds/pug/"
-},
-{
-"nome": "Pinscher Alemão",
-"porte": "Porte pequeno ou médio",
-"Temperamento": "Inteligente, Vivaz, Temperamento balanceado, Espirituoso, Amoroso, Familial",
-"Expectativa de Vida": "12-14 anos",
-"link": "https://www.akc.org/dog-breeds/german-pinscher/" 
-},
-{
-"nome": "Bulldog Francês",
-"porte": "Porte Pequeno",
-"Temperamento": "Brincalhão, Afetuoso, Adaptável",
-"Expectativa de Vida": "10-12 anos",
-"link": "https://www.akc.org/dog-breeds/french-bulldog/"
-},
-{
-"nome": "Shih Tzu",
-"porte": "Porte Pequeno",
-"Temperamento": "Afetuoso, Extrovertido, Brincalhão",
-"Expectativa de Vida": "10-16 anos",
-"link": "https://www.akc.org/dog-breeds/shih-tzu/"
-},
-{
-"nome": "Fila Brasileiro",
-"porte": "Porte Grande",
-"Temperamento": "Corajoso, Leal, Protetor",
-"Expectativa de Vida": "9-11 anos",
-"link": "https://www.akc.org/dog-breeds/fila-brasileiro/"
-},
-{
-"nome": "Yorkshire Terrier",
-"porte": "Porte Pequeno (Toy)",
-"Temperamento": "Corajoso, Energético, Inteligente",
-"Expectativa de Vida": "13-16 anos",
-"link": "https://www.akc.org/dog-breeds/yorkshire-terrier/"
-},
-{
-"nome": "Vira-lata (SRD)",
-"porte": "Variado",
-"Temperamento": "Variado, geralmente adaptável e leal",
-"Expectativa de Vida": "12-18 anos",
-"link": "https://www.peritoanimal.com.br/racas-de-cachorro-vira-lata-tipos-nomes-e-fotos-23996.html"
-},
-{
-"nome": "Akita",
-"porte": "Porte Grande",
-"Temperamento": "Leal, Afetuoso, Protetor",
-"Expectativa de Vida": "10-14 anos",
-"link": "https://www.akc.org/dog-breeds/akita/"
-},
-{
-"nome": "Basset Hound",
-"porte": "Porte Médio",
-"Temperamento": "Amigável, Calmo, teimoso",
-"Expectativa de Vida": "10-12 anos",
-"link": "https://www.akc.org/dog-breeds/basset-hound/"
-},
-{
-"nome": "Beagle",
-"porte": "Porte Pequeno",
-"Temperamento": "Amigável, Curioso, Leal",
-"Expectativa de Vida": "10-15 anos",
-"link": "https://www.akc.org/dog-breeds/beagle/"
-},
-{
-"nome": "Boxer",
-"porte": "Porte Médio-Grande",
-"Temperamento": "Brincalhão, Energético, Leal",
-"Expectativa de Vida": "10-12 anos",
-"link": "https://www.akc.org/dog-breeds/boxer/"
-},
-{
-"nome": "Chow Chow",
-"porte": "Porte Médio",
-"Temperamento": "Leal, Reservado, Silencioso",
-"Expectativa de Vida": "8-12 anos",
-"link": "https://www.akc.org/dog-breeds/chow-chow/"
-},
-{
-"nome": "Cocker Spaniel",
-"porte": "Porte Médio",
-"Temperamento": "Amigável, Carinhoso, Energético",
-"Expectativa de Vida": "10-14 anos",
-"link": "https://www.akc.org/dog-breeds/cocker-spaniel/"
-},
-{
-"nome": "Dachshund",
-"porte": "Porte Pequeno",
-"Temperamento": "Corajoso, Teimoso, Brincalhão",
-"Expectativa de Vida": "12-16 anos",
-"link": "https://www.akc.org/dog-breeds/dachshund/"
-},
-{
-"nome": "Dalmatian",
-"porte": "Porte Grande",
-"Temperamento": "Energético, Brincalhão, Sensível",
-"Expectativa de Vida": "11-13 anos",
-"link": "https://www.akc.org/dog-breeds/dalmatian/"
-},
-{
-"nome": "Doberman",
-"porte": "Porte Grande",
-"Temperamento": "Leal, Destemido, Alerta",
-"Expectativa de Vida": "10-12 anos",
-"link": "https://www.akc.org/dog-breeds/doberman-pinscher/"
-},
-{
-"nome": "German Shepherd",
-"porte": "Porte Grande",
-"Temperamento": "Confiante, Corajoso, Inteligente",
-"Expectativa de Vida": "7-10 anos",
-"link": "https://www.akc.org/dog-breeds/german-shepherd-dog/"
-},
-{
-"nome": "Corgi",
-"porte": "Porte Pequeno-Médio",
-"Temperamento": "Inteligente, Afetuoso, Brincalhão",
-"Expectativa de Vida": "12-13 anos",
-"link": "https://www.akc.org/dog-breeds/pembroke-welsh-corgi/"
-},
-{
-"nome": "Tekel",
-"porte": "Porte Pequeno",
-"Temperamento": "Corajoso, Teimoso, Brincalhão",
-"Expectativa de Vida": "12-16 anos",
-"link": "https://www.akc.org/dog-breeds/dachshund/"
-},
-{
-"nome": "West Terrier",
-"porte": "Porte Pequeno",
-"Temperamento": "Confiante, Inteligente, Brincalhão",
-"Expectativa de Vida": "13-15 anos",
-"link": "https://www.akc.org/dog-breeds/west-highland-white-terrier/"
-},
-{
-"nome": "Border Collie",
-"porte": "Porte Médio",
-"Temperamento": "Inteligente, Energético, Leal",
-"Expectativa de Vida": "12-15 anos",
-"link": "https://www.akc.org/dog-breeds/border-collie/"
-},
-{
-"nome": "Collie",
-"porte": "Porte Médio-Grande",
-"Temperamento": "Inteligente, Amigável, Leal",
-"Expectativa de Vida": "10-14 anos",
-"link": "https://www.akc.org/dog-breeds/collie/"
-},
-{
-"nome": "Galgo",
-"porte": "Porte Grande",
-"Temperamento": "Gentil, Nobre, Doce",
-"Expectativa de Vida": "10-13 anos",
-"link": "https://www.akc.org/dog-breeds/greyhound/"
-},
-{
-"nome": "Chihuahua",
-"porte": "Porte Pequeno (Toy)",
-"Temperamento": "Leal, Charmoso, Confiante",
-"Expectativa de Vida": "14-16 anos",
-"link": "https://www.akc.org/dog-breeds/chihuahua/"
-},
-{
-"nome": "Poodle",
-"porte": "Variado (Standard, Miniature, Toy)",
-"Temperamento": "Inteligente, Ativo, Sociável",
-"Expectativa de Vida": "10-18 anos",
-"link": "https://www.akc.org/dog-breeds/poodle-standard/"
-},
-{
-"nome": "Rottweiler",
-"porte": "Porte Grande",
-"Temperamento": "Calmo, Confiante, Corajoso",
-"Expectativa de Vida": "9-10 anos",
-"link": "https://www.akc.org/dog-breeds/rottweiler/"
-},
-{
-"nome": "Jack Russel",
-"porte": "Porte Pequeno",
-"Temperamento": "Alerta, Curioso, Vivaz",
-"Expectativa de Vida": "12-14 anos",
-"link": "https://www.akc.org/dog-breeds/russell-terrier/"
-},
-{
-"nome": "Papillon",
-"porte": "Porte Pequeno (Toy)",
-"Temperamento": "Feliz, Alerta, Amigável",
-"Expectativa de Vida": "14-16 anos",
-"link": "https://www.akc.org/dog-breeds/papillon/"
-},
-{
-"nome": "Bulldog Inglês",
-"porte": "Porte Médio",
-"Temperamento": "Doce, Devotado, Calmo",
-"Expectativa de Vida": "8-10 anos",
-"link": "https://www.akc.org/dog-breeds/bulldog/"
-},
-
-{
-"nome": "Pastor Australiano",
-"porte": "Porte Médio",
-"Temperamento": "Inteligente, Orientado para o trabalho, Exuberante",
-"Expectativa de Vida": "12-15 anos",
-"link": "https://www.akc.org/dog-breeds/australian-shepherd/"
-},
-{
-"nome": "Pastor Belga Malinois",
-"porte": "Porte Grande",
-"Temperamento": "Confiante, Inteligente, Trabalhador",
-"Expectativa de Vida": "14-16 anos",
-"link": "https://www.akc.org/dog-breeds/belgian-malinois/"
-},
-{
-"nome": "Pastor de Shetland",
-"porte": "Porte Pequeno",
-"Temperamento": "Brincalhão, Energético, Brilhante",
-"Expectativa de Vida": "12-14 anos",
-"link": "https://www.akc.org/dog-breeds/shetland-sheepdog/"
-},
-{
-"nome": "Pastor Branco Suíço",
-"porte": "Porte Grande",
-"Temperamento": "Confiante, Alerta, Leal",
-"Expectativa de Vida": "12-14 anos",
-"link": "https://www.fci.be/en/nomenclature/WHITE-SWISS-SHEPHERD-DOG-347.html"
-},
-{
-"nome": "Cão de Gado Australiano",
-"porte": "Porte Médio",
-"Temperamento": "Alerta, Curioso, Agradável",
-"Expectativa de Vida": "12-16 anos",
-"link": "https://www.akc.org/dog-breeds/australian-cattle-dog/"
-}
+    {
+        "nome": "Akita",
+        "porte": "Porte Grande",
+        "temperamento": "Leal, Afetuoso, Protetor",
+        "expectativa_de_vida": "10-14 anos",
+        "texto_informativo": "Esta raça demonstra um temperamento leal, reservado e digno. É inerentemente protetora da família, sendo independente e exigindo uma socialização precoce e consistente. O vínculo é forte, mas a expressão de afeto é contida e a desconfiança com estranhos é notável.\nClinicamente, o Akita possui predisposição para displasia de quadril, atrofia progressiva de retina (APR) e, notavelmente, para doenças autoimunes, como a Adenite Sebácea e a Síndrome de Vogt-Koyanagi-Harada (VKH), que afeta os olhos e a pele.",
+        "link": "https://www.akc.org/dog-breeds/akita/",
+        "imagem": "akita.jpg"
+    },
+    {
+        "nome": "Basset Hound",
+        "porte": "Porte Médio",
+        "temperamento": "Amigável, Calmo, teimoso",
+        "expectativa_de_vida": "10-12 anos",
+        "texto_informativo": "Com um temperamento dócil, amigável e tranquilo, o Basset Hound é um cão sociável, mas frequentemente demonstra teimosia devido à sua forte orientação por olfato (cão de caça). A interação com o tutor é afetuosa, mas a obediência pode ser desafiadora em função de sua distração olfativa.\nSuas características anatômicas predispõem a otites crônicas (devido às orelhas longas e pendulares), problemas de coluna (doença do disco intervertebral), torção gástrica e condições oculares como ectrópio e entrópio.",
+        "link": "https://www.akc.org/dog-breeds/basset-hound/",
+        "imagem": "basset.jpg"
+    },
+    {
+        "nome": "Beagle",
+        "porte": "Porte Pequeno",
+        "temperamento": "Amigável, Curioso, Leal",
+        "expectativa_de_vida": "10-15 anos",
+        "texto_informativo": "O Beagle é uma raça alegre, ativa e extremamente sociável, conhecida por sua natureza exploradora e pelo forte impulso de cheirar. É um excelente cão de família, mas requer supervisão em ambientes abertos devido ao seu instinto de rastreamento.\nA raça está associada a condições como epilepsia, displasia de quadril, problemas oculares como o glaucoma, além de ser predisposta a obesidade e hipotireoidismo.",
+        "link": "https://www.akc.org/dog-breeds/beagle/",
+        "imagem": "beagle.jpg"
+    },
+    {
+        "nome": "Border Collie",
+        "porte": "Porte Médio",
+        "temperamento": "Inteligente, Energético, Leal",
+        "expectativa_de_vida": "12-15 anos",
+        "texto_informativo": "Reconhecido por sua altíssima inteligência, energia e dedicação ao trabalho, o Border Collie estabelece uma interação intensa com o tutor, exigindo constante estímulo mental e físico. Sua necessidade de pastoreio pode se manifestar no comportamento de \"reunir\" membros da família ou objetos.\nAs principais predisposições clínicas incluem displasia de quadril e cotovelo, Anomalia do Olho do Collie (CEA) e a sensibilidade a múltiplos medicamentos (MDR1), exigindo cautela na farmacoterapia.",
+        "link": "https://www.akc.org/dog-breeds/border-collie/",
+        "imagem": "border collie.jpg"
+    },
+    {
+        "nome": "Boxer",
+        "porte": "Porte Médio-Grande",
+        "temperamento": "Brincalhão, Energético, Leal",
+        "expectativa_de_vida": "10-12 anos",
+        "texto_informativo": "O Boxer é leal, enérgico e conhecido por seu comportamento brincalhão. Altamente afetuoso com a família, é um cão de guarda natural, exigindo socialização para gerenciar sua energia e instinto protetor.\nAs patologias de maior relevância são de origem cardiovascular, como a Cardiomiopatia Arritmogênica do Ventrículo Direito (ARVC). Também há predisposição à estenose aórtica, além de uma alta incidência de neoplasias (mastocitoma e linfoma) e risco de torção gástrica.",
+        "link": "https://www.akc.org/dog-breeds/boxer/",
+        "imagem": "boxer.jpg"
+    },
+    {
+        "nome": "Buldogue Francês",
+        "porte": "Porte Pequeno",
+        "temperamento": "Brincalhão, Afetuoso, Adaptável",
+        "expectativa_de_vida": "10-12 anos",
+        "texto_informativo": "Um cão de companhia afetuoso, charmoso e sociável, o Buldogue Francês adapta-se bem à vida urbana, sendo muito ligado ao seu tutor. Seu temperamento é geralmente equilibrado, mas pode demonstrar teimosia moderada.\nÉ um paciente com alta incidência da Síndrome Braquicefálica Obstrutiva das Vias Aéreas (SBOVA), exigindo atenção especial à termorregulação e respiração. Outras condições incluem hemivértebras (problemas de coluna), dermatite de dobras e luxação de patela.",
+        "link": "https://www.akc.org/dog-breeds/french-bulldog/",
+        "imagem": "buldog frances.jpg"
+    },
+    {
+        "nome": "Buldogue Inglês",
+        "porte": "Porte Médio",
+        "temperamento": "Doce, Devotado, Calmo",
+        "expectativa_de_vida": "8-10 anos",
+        "texto_informativo": "A raça é caracterizada por ser calma, corajosa e extremamente leal. Embora seja um companheiro dedicado, sua estrutura física limita a tolerância ao exercício e ao calor, e a interação é marcada por uma dependência de ambientes frescos.\nCompartilha com outros braquicefálicos a Síndrome Braquicefálica, mas também é altamente predisposto à displasia de quadril e cotovelo, dermatite de dobras e prolapso da glândula da terceira pálpebra (\"olho de cereja\").",
+        "link": "https://www.akc.org/dog-breeds/bulldog/",
+        "imagem": "buldog ingles.jpg"
+    },
+    {
+        "nome": "Cão de Gado Australiano",
+        "porte": "Porte Médio",
+        "temperamento": "Alerta, Curioso, Agradável",
+        "expectativa_de_vida": "12-16 anos",
+        "texto_informativo": "Este cão é alerta, extremamente inteligente e protetor, demonstrando desconfiança natural com estranhos. Requer socialização precoce e alta atividade para gerenciar seu vigor e instinto de trabalho.\nAs principais preocupações clínicas envolvem a surdez (frequentemente associada à pelagem manchada/merle), atrofia progressiva de retina (APR) e displasia de quadril.",
+        "link": "https://www.akc.org/dog-breeds/australian-cattle-dog/",
+        "imagem": "cao de gado australiano.jpg"
+    },
+    {
+        "nome": "Chihuahua",
+        "porte": "Porte Pequeno (Toy)",
+        "temperamento": "Leal, Charmoso, Confiante",
+        "expectativa_de_vida": "14-16 anos",
+        "texto_informativo": "O Chihuahua é corajoso, vivaz e desenvolve uma lealdade intensa e muitas vezes exclusiva a um único tutor. Pode ser um cão possessivo e, devido ao seu tamanho, demonstra desconfiança e até agressividade com estranhos e cães maiores.\nO manejo clínico deve considerar a predisposição à hidrocefalia, luxação de patela, colapso de traqueia e frequentes problemas periodontais e dentários.",
+        "link": "https://www.akc.org/dog-breeds/chihuahua/",
+        "imagem": "chiuhuahau.jpg"
+    },
+    {
+        "nome": "Chow Chow",
+        "porte": "Porte Médio",
+        "temperamento": "Leal, Reservado, Silencioso",
+        "expectativa_de_vida": "8-12 anos",
+        "texto_informativo": "Com um temperamento reservado, independente e digno, o Chow Chow demonstra lealdade à família, mas não é excessivamente afetuoso ou exuberante, sendo desconfiado com pessoas desconhecidas.\nA anatomia do seu rosto o predispõe ao entrópio (inversão da pálpebra). Outras condições relevantes são a displasia de quadril e cotovelo, o hipotireoidismo e doenças cutâneas autoimunes como o pênfigo.",
+        "link": "https://www.akc.org/dog-breeds/chow-chow/",
+        "imagem": "chow chow.jpg"
+    },
+    {
+        "nome": "Cocker Spaniel",
+        "porte": "Porte Médio",
+        "temperamento": "Amigável, Carinhoso, Energético",
+        "expectativa_de_vida": "10-14 anos",
+        "texto_informativo": "O Cocker é um cão amigável, alegre e dócil, com um forte desejo de agradar o tutor. É geralmente bom com crianças, mas requer atenção e socialização consistentes para evitar o desenvolvimento de possessividade ou a \"síndrome da raiva\" (agressividade inesperada), embora rara.\nA conformação das suas orelhas longas exige manejo frequente para evitar otites externas crônicas. Também são predispostos a cardiomiopatia dilatada, doença do disco intervertebral e displasia renal familiar.",
+        "link": "https://www.akc.org/dog-breeds/cocker-spaniel/",
+        "imagem": "cocker.jpg"
+    },
+    {
+        "nome": "Collie",
+        "porte": "Porte Médio-Grande",
+        "temperamento": "Inteligente, Amigável, Leal",
+        "expectativa_de_vida": "10-14 anos",
+        "texto_informativo": "Um cão amigável, dócil e extremamente leal, o Collie é uma raça de pastoreio que é sensível e responsiva ao tutor, estabelecendo um vínculo forte e harmonioso.\nAs questões genéticas prevalentes são a Anomalia do Olho do Collie (CEA) e a sensibilidade a múltiplos medicamentos (MDR1). Há também predisposição à displasia de quadril.",
+        "link": "https://www.akc.org/dog-breeds/collie/",
+        "imagem": "collie.jpg"
+    },
+    {
+        "nome": "Corgi",
+        "porte": "Porte Pequeno-Médio",
+        "temperamento": "Inteligente, Afetuoso, Brincalhão",
+        "expectativa_de_vida": "12-13 anos",
+        "texto_informativo": "O Corgi é inteligente, ativo e afetuoso, desenvolvendo grande apego ao tutor. Seu instinto de pastoreio pode se manifestar através da mordida nos calcanhares (comportamento de condução de rebanho).\nSua conformação corporal (pernas curtas, tronco longo) o torna altamente suscetível à doença do disco intervertebral (IVDD). Outras preocupações incluem a mielopatia degenerativa e a displasia de quadril.",
+        "link": "https://www.akc.org/dog-breeds/pembroke-welsh-corgi/",
+        "imagem": "corgi.jpg"
+    },
+    {
+        "nome": "Dachshund",
+        "porte": "Porte Pequeno",
+        "temperamento": "Corajoso, Teimoso, Brincalhão",
+        "expectativa_de_vida": "12-16 anos",
+        "texto_informativo": "Esta raça é corajosa, viva e notoriamente teimosa. Desenvolve um grande apego ao tutor, mas pode ser possessivo e desconfiado com estranhos.\nA patologia mais crítica é a Doença do Disco Intervertebral (IVDD), que pode levar à paralisia em casos graves. Também são predispostos à obesidade e luxação de patela.",
+        "link": "https://www.akc.org/dog-breeds/dachshund/",
+        "imagem": "dachshund.jpg"
+    },
+    {
+        "nome": "Dálmata",
+        "porte": "Porte Grande",
+        "temperamento": "Energético, Brincalhão, Sensível",
+        "expectativa_de_vida": "11-13 anos",
+        "texto_informativo": "Um cão ativo, inteligente e alerta, o Dálmata exige exercício e socialização constantes. Pode ser reservado com estranhos e requer um tutor que consiga canalizar sua alta energia.\nO Dálmata tem uma particularidade metabólica que o predispõe à hiperuricemia e à formação de cálculos de urato de amônio. Outras preocupações incluem a surdez (uni ou bilateral) e alergias cutâneas.",
+        "link": "https://www.akc.org/dog-breeds/dalmatian/",
+        "imagem": "dalmata.jpg"
+    },
+    {
+        "nome": "Doberman Pinscher",
+        "porte": "Porte Grande",
+        "temperamento": "Leal, Destemido, Alerta",
+        "expectativa_de_vida": "10-12 anos",
+        "texto_informativo": "Cão leal, alerta e destemido, o Doberman estabelece um vínculo profundo com a família, sendo um excelente cão de guarda. Requer socialização e treinamento para canalizar sua energia e proteger seu instinto.\nA principal causa de morbidade e mortalidade é a Cardiomiopatia Dilatada (DCM). A raça também é predisposta à Síndrome de Wobbler (instabilidade cervical) e à Síndrome de von Willebrand (doença hemorrágica).",
+        "link": "https://www.akc.org/dog-breeds/doberman-pinscher/",
+        "imagem": "doberman.jpg"
+    },
+    {
+        "nome": "Dogue Alemão",
+        "porte": "Porte Gigante",
+        "temperamento": "Amigável, Paciente, Confiável",
+        "expectativa_de_vida": "7-10 anos",
+        "texto_informativo": "Conhecido como o \"gigante gentil\", o Dogue Alemão é amigável, gentil e paciente. Seu grande porte exige treinamento precoce, mas ele é extremamente ligado ao tutor.\nDevido ao seu tamanho, a Torção Gástrica (GDV) é uma emergência crítica comum. Outras preocupações incluem a cardiomiopatia dilatada (DCM), osteossarcoma (câncer ósseo) e displasia de quadril.",
+        "link": "https://www.akc.org/dog-breeds/great-dane/",
+        "imagem": "dog alemao.jpg"
+    },
+    {
+        "nome": "Fila Brasileiro",
+        "porte": "Porte Grande",
+        "temperamento": "Corajoso, Leal, Protetor",
+        "expectativa_de_vida": "9-11 anos",
+        "texto_informativo": "Um cão protetor, corajoso e notoriamente calmo, o Fila Brasileiro possui uma lealdade extrema e uma desconfiança instintiva de estranhos (característica da Ojeriza). Exige um tutor com experiência e manejo especializado.\nAs principais preocupações ortopédicas são a displasia de quadril e cotovelo.",
+        "link": "https://www.akc.org/dog-breeds/fila-brasileiro/",
+        "imagem": "fila brasileiro.jpg"
+    },
+    {
+        "nome": "Galgo",
+        "porte": "Porte Grande",
+        "temperamento": "Gentil, Nobre, Doce",
+        "expectativa_de_vida": "10-13 anos",
+        "texto_informativo": "Apesar de sua velocidade, o Galgo é gentil, calmo e quieto em ambiente doméstico. É um cão reservado com estranhos, desenvolvendo um apego discreto e afetuoso ao tutor.\nSão predispostos a cardiomiopatia dilatada e osteossarcoma. Possuem uma notável sensibilidade a anestésicos barbitúricos, devido à baixa porcentagem de gordura corporal, o que exige protocolos anestésicos específicos.",
+        "link": "https://www.akc.org/dog-breeds/greyhound/",
+        "imagem": "galgo.jpg"
+    },
+    {
+        "nome": "Golden Retriever",
+        "porte": "Porte Grande",
+        "temperamento": "Amigável, Inteligente, Dedicado",
+        "expectativa_de_vida": "10-12 anos",
+        "texto_informativo": "Esta raça é reconhecida por sua inteligência, dedicação e temperamento extremamente amigável, sendo highly sociável e fácil de treinar. Estabelece um forte vínculo afetivo com o tutor e a família, demonstrando uma natureza equilibrada e adaptável.\nClinicamente, o Golden Retriever apresenta uma alta prevalência de neoplasias (como Hemangiossarcoma e Linfoma), Displasia de quadril e cotovelo e hipotireoidismo. Também há predisposição para estenose aórtica subvalvar (SAS) e diversas alergias cutâneas.",
+        "link": "https://www.akc.org/dog-breeds/golden-retriever/",
+        "imagem": "golden retriever.jpg"
+    },
+    {
+        "nome": "Husky Siberiano",
+        "porte": "Porte Médio-Grande",
+        "temperamento": "Amigável, Energético, Inteligente",
+        "expectativa_de_vida": "12-15 anos",
+        "texto_informativo": "O Husky é amigável, aventureiro e extrovertido, mas possui uma natureza independente e um forte instinto de migração. Embora afetuoso, não é excessivamente apego e não atua como bom cão de guarda.\nAs preocupações clínicas notáveis são as doenças autoimunes (ex: Síndrome Uveodermatológica ou VKH) e o hipotireoidismo. Também estão predispostos a displasia de quadril, cataratas e zincodermia.",
+        "link": "https://www.akc.org/dog-breeds/siberian-husky/",
+        "imagem": "husky.jpg"
+    },
+    {
+        "nome": "Jack Russell Terrier",
+        "porte": "Porte Pequeno",
+        "temperamento": "Alerta, Curioso, Vivaz",
+        "expectativa_de_vida": "12-14 anos",
+        "texto_informativo": "Um cão enérgico, destemido e inteligente, o Jack Russell exige uma quantidade significativa de atividade e estímulo. A interação com o tutor é intensa, mas ele pode ser propenso a cavar e latir, devido ao seu alto impulso de caça.\nAs principais preocupações ortopédicas incluem a luxação de patela e a doença de Legg-Calvé-Perthes.",
+        "link": "https://www.akc.org/dog-breeds/russell-terrier/",
+        "imagem": "jack russel.jpg"
+    },
+    {
+        "nome": "Old English Sheepdog",
+        "porte": "Porte Médio-Grande",
+        "temperamento": "Inteligente, Leal, Trabalhador",
+        "expectativa_de_vida": "10-13 anos",
+        "texto_informativo": "O Old English Sheepdog é adaptável, gentil e com um temperamento brincalhão (o \"palhaço\" do mundo canino). É um excelente cão de família, estabelecendo um vínculo de grande companheirismo.\nAs predisposições clínicas incluem a displasia de quadril, hipotireoidismo e condições oculares como a catarata e a Atrofia Progressiva de Retina (APR).",
+        "link": "https://www.akc.org/dog-breeds/old-english-sheepdog/",
+        "imagem": "Old English Sheepdog.jpg"
+    },
+    {
+        "nome": "Papillon",
+        "porte": "Porte Pequeno (Toy)",
+        "temperamento": "Feliz, Alerta, Amigável",
+        "expectativa_de_vida": "14-16 anos",
+        "texto_informativo": "Um cão alegre, alerta e muito elegante, o Papillon é conhecido por sua inteligência e facilidade de treinamento. Ele é dedicado ao seu tutor, mas seu pequeno porte exige manejo cuidadoso.\nAs fragilidades musculoesqueléticas incluem a luxação de patela. Também é importante monitorar a possível ocorrência de fontanela aberta (em filhotes) e a tendência a problemas dentários.",
+        "link": "https://www.akc.org/dog-breeds/papillon/",
+        "imagem": "papillon.jpg"
+    },
+    {
+        "nome": "Pastor Alemão",
+        "porte": "Porte Grande",
+        "temperamento": "Confiante, Corajoso, Inteligente",
+        "expectativa_de_vida": "7-10 anos",
+        "texto_informativo": "Esta raça é leal, inteligente e possui uma natureza nobre. É um cão de trabalho extremamente versátil e um excelente cão de guarda, exigindo um vínculo de respeito e treinamento consistente com o tutor.\nAs patologias ortopédicas são a grande preocupação, notadamente a displasia de quadril e cotovelo. Outras condições relevantes incluem a mielopatia degenerativa, a insuficiência pancreática exócrina e a fístula perianal.",
+        "link": "https://www.akc.org/dog-breeds/german-shepherd-dog/",
+        "imagem": "pastor alemao.jpg"
+    },
+    {
+        "nome": "Pastor Australiano",
+        "porte": "Porte Médio",
+        "temperamento": "Inteligente, Orientado para o trabalho, Exuberante",
+        "expectativa_de_vida": "12-15 anos",
+        "texto_informativo": "Um cão inteligente, ativo e versátil, o Pastor Australiano é fortemente orientado para o trabalho, exigindo um tutor que possa fornecer alta atividade física e mental.\nA preocupação genética mais crítica é a sensibilidade a medicamentos (MDR1) e a Anomalia do Olho do Collie (CEA). Também são predispostos à displasia de quadril e epilepsia.",
+        "link": "https://www.akc.org/dog-breeds/australian-shepherd/",
+        "imagem": "pastor australiano.jpg"
+    },
+    {
+        "nome": "Pastor Belga Malinois",
+        "porte": "Porte Grande",
+        "temperamento": "Confiante, Inteligente, Trabalhador",
+        "expectativa_de_vida": "14-16 anos",
+        "texto_informativo": "Cão inteligente, atento e de extrema energia, o Malinois é essencialmente um cão de trabalho. A interação com o tutor é focada em tarefas, e ele exige uma dedicação altíssima para evitar problemas comportamentais.\nA principal preocupação ortopédica é a displasia de quadril e cotovelo. Outras condições incluem a epilepsia e a pannus (ceratite superficial crônica).",
+        "link": "https://www.akc.org/dog-breeds/belgian-malinois/",
+        "imagem": "pastor malinoa.jpg"
+    },
+    {
+        "nome": "Pastor Shetland",
+        "porte": "Porte Pequeno",
+        "temperamento": "Brincalhão, Energético, Brilhante",
+        "expectativa_de_vida": "12-14 anos",
+        "texto_informativo": "O Sheltie é leal, afetuoso e altamente responsivo, estabelecendo um forte laço com a família. É um cão de pastoreio mais reservado que o Collie e pode ser sensível a ruídos intensos.\nAssim como outras raças de pastoreio, as preocupações incluem a Anomalia do Olho do Collie (CEA) e a sensibilidade a medicamentos (MDR1). Há também predisposição ao hipotireoidismo e à epilepsia.",
+        "link": "https://www.akc.org/dog-breeds/shetland-sheepdog/",
+        "imagem": "pastor shetland.jpg"
+    },
+    {
+        "nome": "Pastor Branco Suíço",
+        "porte": "Porte Grande",
+        "temperamento": "Confiante, Alerta, Leal",
+        "expectativa_de_vida": "12-14 anos",
+        "texto_informativo": "Um cão alerta, vital e com bom temperamento de trabalho, o Pastor Branco Suíço é muito ligado ao seu tutor, embora seja reservado e cauteloso com estranhos.\nAs condições ortopédicas dominantes são a displasia de quadril e cotovelo. Também é importante monitorar a possível ocorrência de mielopatia degenerativa e sensibilidade gástrica.",
+        "link": "https://www.fci.be/en/nomenclature/WHITE-SWISS-SHEPHERD-DOG-347.html",
+        "imagem": "pastor suiço.jpg"
+    },
+    {
+        "nome": "Pinscher",
+        "porte": "Porte pequeno ou médio",
+        "temperamento": "Inteligente, Vivaz, Temperamento balanceado, Espirituoso, Amoroso, Familial",
+        "expectativa_de_vida": "12-14 anos",
+        "texto_informativo": "Um cão enérgico, alerta e destemido (o \"Rei dos Toys\"), o Pinscher estabelece um vínculo intenso, mas pode ser teimoso e exigir treinamento consistente para gerenciar sua vivacidade.\nEm termos clínicos, as principais preocupações são a luxação de patela, a doença de Legg-Calvé-Perthes e o colapso de traqueia.",
+        "link": "https://www.akc.org/dog-breeds/german-pinscher/",
+        "imagem": "pinscher.jpg"
+    },
+    {
+        "nome": "Poodle",
+        "porte": "Variado (Standard, Miniature, Toy)",
+        "temperamento": "Inteligente, Ativo, Sociável",
+        "expectativa_de_vida": "10-18 anos",
+        "texto_informativo": "O Poodle é altamente inteligente, ativo e conhecido por seu temperamento sociável, sendo um cão afetuoso e muito fácil de treinar. Sua interação é de grande dedicação ao tutor.\nAs variedades miniatura e toy são predispostas à luxação de patela e catarata. O Poodle Padrão é mais predisposto a Doença de Addison (hipoadrenocorticismo) e hipotireoidismo.",
+        "link": "https://www.akc.org/dog-breeds/poodle-standard/",
+        "imagem": "poodle.jpg"
+    },
+    {
+        "nome": "Pug",
+        "porte": "Porte Pequeno",
+        "temperamento": "Afetuoso, Brincalhão, Teimoso",
+        "expectativa_de_vida": "12-15 anos",
+        "texto_informativo": "Um cão charmoso, brincalhão e sociável, o Pug é um companheiro muito ligado ao tutor. Sua estrutura o torna intolerante a exercícios vigorosos e calor, o que limita sua atividade.\nÉ um paciente de alto risco para a Síndrome Braquicefálica e úlceras de córnea (devido a olhos proeminentes). A Encefalite do Pug (PDE) é uma condição neurológica grave.",
+        "link": "https://www.akc.org/dog-breeds/pug/",
+        "imagem": "pug.jpg"
+    },
+    {
+        "nome": "Rottweiler",
+        "porte": "Porte Grande",
+        "temperamento": "Calmo, Confiante, Corajoso",
+        "expectativa_de_vida": "9-10 anos",
+        "texto_informativo": "A raça é leal, protetora e corajosa, exigindo socialização e treinamento consistentemente para gerenciar seu instinto protetor. O vínculo com o tutor é profundo e de forte guarda.\nAs principais preocupações clínicas são a displasia de quadril e cotovelo, o osteossarcoma e a estenose subaórtica (SAS). Apresenta risco significativo de torção gástrica.",
+        "link": "https://www.akc.org/dog-breeds/rottweiler/",
+        "imagem": "rottweiller.jpg"
+    },
+    {
+        "nome": "Scottish Terrier",
+        "porte": "Porte Pequeno",
+        "temperamento": "Corajoso, Confiante, Alerta",
+        "expectativa_de_vida": "11-13 anos",
+        "texto_informativo": "Com um temperamento independente, leal e corajoso, o Scottish Terrier pode ser teimoso, mas demonstra apego. Possui um forte impulso de caça, característico dos Terriers.\nEsta raça tem uma alta predisposição a várias formas de neoplasias, incluindo o melanoma e tumores de bexiga. Também é notável a doença de von Willebrand (distúrbio hemorrágico).",
+        "link": "https://www.akc.org/dog-breeds/scottish-terrier/",
+        "imagem": "scottish terrier.jpg"
+    },
+    {
+        "nome": "Shih Tzu",
+        "porte": "Porte Pequeno",
+        "temperamento": "Afetuoso, Extrovertido, Brincalhão",
+        "expectativa_de_vida": "10-16 anos",
+        "texto_informativo": "Um cão afetuoso, extrovertido e brincalhão, o Shih Tzu é um companheiro de colo ideal. A interação é de grande afeto, mas requer paciência com a manutenção da pelagem.\nClinicamente, é susceptível a problemas oculares como proptose e úlceras de córnea. É predisposto a formas mais leves da Síndrome Braquicefálica e a doença do disco intervertebral.",
+        "link": "https://www.akc.org/dog-breeds/shih-tzu/",
+        "imagem": "shihtzu.jpg"
+    },
+    {
+        "nome": "Spitz Alemão",
+        "porte": "Porte Pequeno",
+        "temperamento": "Brincalhão, Energético, Leal",
+        "expectativa_de_vida": "12-16 anos",
+        "texto_informativo": "Um cão vivo, curioso e destemido, o Spitz desenvolve um grande apego ao tutor. Seu temperamento é alerta, podendo se manifestar em um comportamento de latido excessivo.\nAs preocupações clínicas mais comuns incluem a Alopecia X (\"Black Skin Disease\"), luxação de patela e colapso de traqueia.",
+        "link": "https://www.akc.org/dog-breeds/german-spitz/",
+        "imagem": "spitz.jpg"
+    },
+    {
+        "nome": "Vira-Lata (SRD - Sem Raça Definida)",
+        "porte": "Variado",
+        "temperamento": "Variado, geralmente adaptável e leal",
+        "expectativa_de_vida": "12-18 anos",
+        "texto_informativo": "O temperamento do SRD varia amplamente, mas é geralmente caracterizado por ser resiliente, adaptável e, frequentemente, inteligente. O vínculo e a interação são resultados diretos da sua experiência de vida e socialização individual.\nApesar de serem, em geral, mais resistentes geneticamente, a sua saúde depende fortemente do manejo e prevenção, estando sujeitos às doenças infecciosas comuns (cinomose, parvovirose, erliquiose) em casos de falha vacinal ou mau manejo.",
+        "link": "https://www.peritoanimal.com.br/racas-de-cachorro-vira-lata-tipos-nomes-e-fotos-23996.html",
+        "imagem": "vira-lata.jpg"
+    },
+    {
+        "nome": "West Highland White Terrier",
+        "porte": "Porte Pequeno",
+        "temperamento": "Confiante, Inteligente, Brincalhão",
+        "expectativa_de_vida": "13-15 anos",
+        "texto_informativo": "Um cão amigável, alegre e com um toque de independência, o Westie possui o típico temperamento Terrier, incluindo um forte impulso de caça.\nAs principais preocupações dermatológicas são a dermatite atópica e as alergias cutâneas. Outras condições incluem a fibrose pulmonar idiopática e a doença de Legg-Calvé-Perthes.",
+        "link": "https://www.akc.org/dog-breeds/west-highland-white-terrier/",
+        "imagem": "west.jpg"
+    },
+    {
+        "nome": "Yorkshire Terrier",
+        "porte": "Porte Pequeno (Toy)",
+        "temperamento": "Corajoso, Energético, Inteligente",
+        "expectativa_de_vida": "13-16 anos",
+        "texto_informativo": "O Yorkshire é enérgico, destemido e extremamente apegado ao tutor, desenvolvendo um forte vínculo de dependência. Seu temperamento pode ser desafiador devido à tendência à possessividade e dificuldade em treinamento sanitário.\nO manejo clínico deve focar na luxação de patela, colapso de traqueia, shunt portossistêmico e doença periodontal de início precoce e grave.",
+        "link": "https://www.akc.org/dog-breeds/yorkshire-terrier/",
+        "imagem": "york shire.jpg"
+    }
 ]
