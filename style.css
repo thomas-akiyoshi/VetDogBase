@@ -19,17 +19,25 @@ body {
     font-family: var(--fonte-texto); /* Define a fonte padrão. */
     color: var(--cor-primaria); /* Define a cor do texto. */
     margin: 0; /* Remove a margem padrão. */
-    padding-bottom: 80px; /* Adiciona espaço na parte inferior para o rodapé. */
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
 }
 
 /* style.css */
 
 .site-logo {
-    max-height: 200px; /* Define a altura máxima da sua logo. Ajuste conforme necessário. */
+    max-height: 350px; /* Define a altura máxima da logo. */
     width: auto;     /* Garante que a largura se ajuste automaticamente para manter a proporção. */
-    /* Outros estilos podem vir aqui, como margens, alinhamento, etc. */
-    margin-top: 1px; /* Exemplo: um pouco de espaço acima */
-    margin-left: 1%; /* Exemplo: um pouco de espaço à esquerda */
+    margin-top: 10px; /* Adiciona um pouco de espaço acima */
+    filter: drop-shadow(0 4px 8px rgba(0, 0, 0, 0.2)); /* Adiciona uma sombra para destaque */
+    transition: transform 0.3s ease; /* Adiciona uma transição suave */
+}
+
+.site-logo:hover {
+    transform: scale(1.05); /* Efeito de zoom ao passar o mouse */
 }
 
 /* Estilo para o link da logo, se você usou a tag <a> */
@@ -43,98 +51,116 @@ body {
     background-color: transparent; /* Cor de fundo suave para o cabeçalho */
     padding: 10px 0; /* Espaçamento interno */
     display: flex; /* Se quiser alinhar itens no cabeçalho (como a logo e um menu) */
+    justify-content: center;
     align-items: center; /* Alinha verticalmente no centro */
 }
 
+/* Estilo para o link da logo, se você usou a tag <a> */
+.logo-link {
+    display: block; /* Garante que o link ocupe todo o espaço necessário */
+    text-align: center;
+}
 
-/* Estilos para o cabeçalho. */
+/* Exemplo de estilo para o cabeçalho (apenas para contexto) */
 .header {
     background-color: var(--cor-primaria); /* Define a cor de fundo do cabeçalho. */
     color: var(--cor-quinaria); /* Define a cor do texto do cabeçalho. */
-    padding: 1.5rem 2rem; /* Adiciona espaçamento interno. */
-    display: flex; /* Habilita o layout flexbox. */
-    justify-content: space-between; /* Alinha os itens com espaço entre eles. */
-    align-items: center; /* Alinha os itens verticalmente ao centro. */
+    padding: 1rem 2rem; /* Adiciona espaçamento interno. */
     box-shadow: var(--sombra-caixa); /* Adiciona uma sombra. */
-}
-
-/* Estilos para o container do título no cabeçalho. */
-.header-title {
-    display: flex; /* Habilita o layout flexbox. */
-    align-items: center; /* Alinha os itens verticalmente ao centro. */
-}
-
-/* Estilos para a imagem (logo) no cabeçalho. */
-.header-title img {
-    height: 40px; /* Define a altura da logo. */
-    margin-right: 1rem; /* Adiciona uma margem à direita. */
-}
-
-/* Estilos para o título principal (h1) no cabeçalho. */
-.header h1 {
-    font-family: var(--fonte-titulo); /* Define a fonte do título. */
-    font-size: 1.8rem; /* Define o tamanho da fonte. */
-    margin: 0; /* Remove a margem padrão. */
 }
 
 /* Estilos para o container de busca. */
 .search-container {
-    display: flex; /* Habilita o layout flexbox. */
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
 }
 
 /* Estilos para o campo de input da busca. */
 .search-container input {
-    padding: 0.8rem; /* Adiciona espaçamento interno. */
-    width: 300px; /* Define a largura do campo. */
-    border: 1px solid var(--cor-terciaria); /* Define a borda. */
-    border-radius: 20px 0 0 20px; /* Arredonda os cantos esquerdo. */
-    background-color: var(--cor-secundaria); /* Define a cor de fundo. */
-    color: var(--cor-quinaria); /* Define a cor do texto. */
-    font-size: 1rem; /* Define o tamanho da fonte. */
-    outline: none; /* Remove a borda de foco padrão. */
-    transition: background-color 0.3s ease; /* Adiciona uma transição suave. */
+    padding: 1rem; /* Aumenta o padding */
+    width: 500px; /* Aumenta a largura */
+    border: 2px solid var(--cor-terciaria);
+    border-radius: 25px 0 0 25px; /* Bordas mais arredondadas */
+    background-color: #fff;
+    color: var(--cor-primaria);
+    font-size: 1.2rem; /* Fonte maior */
+    outline: none;
+    transition: all 0.3s ease;
 }
 
 /* Estilos para o placeholder do campo de busca. */
 .search-container input::placeholder {
-    color: var(--cor-quaternaria); /* Define a cor do texto do placeholder. */
+    color: var(--cor-quaternaria);
 }
 
 /* Estilos para o campo de busca quando em foco. */
 .search-container input:focus {
-    background-color: var(--cor-terciaria); /* Muda a cor de fundo. */
-    border-color: var(--cor-quaternaria); /* Muda a cor da borda. */
+    background-color: #fff;
+    border-color: var(--cor-quaternaria);
+    box-shadow: 0 0 10px rgba(143, 179, 226, 0.5); /* Sombra ao focar */
 }
 
-/* Estilos para o botão de busca. */
-.search-container button {
-    padding: 0.8rem 1.5rem; /* Adiciona espaçamento interno. */
-    background-color: var(--cor-terciaria); /* Define a cor de fundo. */
-    color: var(--cor-quinaria); /* Define a cor do texto. */
-    border: 1px solid var(--cor-terciaria); /* Define a borda. */
-    border-left: none; /* Remove a borda esquerda para unir com o input. */
-    border-radius: 0 20px 20px 0; /* Arredonda os cantos direito. */
-    cursor: pointer; /* Muda o cursor para indicar que é clicável. */
-    font-size: 1rem; /* Define o tamanho da fonte. */
-    transition: background-color 0.3s ease; /* Adiciona uma transição suave. */
+/* Estilos para o botão "Mostrar Todos". */
+#showAllBtn {
+    padding: 1rem 2rem; /* Aumenta o padding */
+    background-color: var(--cor-terciaria);
+    color: var(--cor-quinaria);
+    border: 2px solid var(--cor-terciaria);
+    border-left: none;
+    border-radius: 0 25px 25px 0; /* Bordas mais arredondadas */
+    cursor: pointer;
+    font-size: 1.2rem; /* Fonte maior */
+    transition: background-color 0.3s ease;
 }
 
-/* Estilos para o botão de busca ao passar o mouse. */
-.search-container button:hover {
-    background-color: var(--cor-quaternaria); /* Muda a cor de fundo. */
-    color: var(--cor-primaria); /* Muda a cor do texto. */
+/* Estilos para o botão "Mostrar Todos" ao passar o mouse. */
+#showAllBtn:hover {
+    background-color: var(--cor-quaternaria);
+    color: var(--cor-primaria);
 }
 
 /* Estilos para o conteúdo principal da página. */
 .main-content {
     padding: 2rem; /* Adiciona espaçamento interno. */
+    /* Centraliza o conteúdo principal e limita sua largura */
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
 /* Estilos para o container dos cards. */
-.card-container {
+#cards-container {
     display: grid; /* Habilita o layout em grade. */
-    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); /* Cria colunas responsivas. */
+    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr)); /* Cria colunas responsivas. */
     gap: 1.5rem; /* Define o espaçamento entre os cards. */
+    margin-top: 1rem; /* Adiciona espaço acima dos cards */
+}
+
+/* Estilos para o container de sugestões */
+#suggestions-container {
+    max-width: 380px; /* Mesma largura do input + botão */
+    margin: 0.5rem auto; /* Centraliza e adiciona espaço */
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: var(--sombra-caixa);
+    overflow: hidden; /* Garante que os cantos arredondados sejam aplicados aos filhos */
+}
+
+.suggestion-item {
+    padding: 0.8rem 1.2rem;
+    cursor: pointer;
+    border-bottom: 1px solid var(--cor-quinaria);
+    font-family: var(--fonte-texto);
+}
+
+.suggestion-item:last-child {
+    border-bottom: none;
+}
+
+.suggestion-item:hover {
+    background-color: var(--cor-quinaria);
+    color: var(--cor-terciaria);
 }
 
 /* Estilos para cada card. */
@@ -145,6 +171,19 @@ body {
     padding: 1.5rem; /* Adiciona espaçamento interno. */
     box-shadow: var(--sombra-caixa); /* Adiciona uma sombra. */
     transition: transform 0.3s ease, box-shadow 0.3s ease; /* Adiciona transições suaves. */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+/* Estilos para as imagens dentro dos cards. */
+.card-img {
+    width: 100%;
+    max-height: 200px; /* Altura máxima da imagem, ajuste conforme necessário */
+    object-fit: cover; /* Garante que a imagem cubra a área mantendo a proporção */
+    border-radius: 8px; /* Arredonda as bordas da imagem */
+    margin-bottom: 1rem; /* Espaço abaixo da imagem */
 }
 
 /* Estilos para o card ao passar o mouse. */
@@ -179,33 +218,195 @@ body {
     text-decoration: underline; /* Adiciona um sublinhado. */
 }
 
+/* Estilos para o link (a) dentro do card - Call to Action */
+.card a.card-cta {
+    display: inline-block;
+    margin-top: 1rem;
+    padding: 0.8rem 1.5rem;
+    background-color: var(--cor-terciaria);
+    color: var(--cor-quinaria);
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 20px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.card a.card-cta:hover {
+    background-color: var(--cor-quaternaria);
+    color: var(--cor-primaria);
+    text-decoration: none;
+    transform: translateY(-2px);
+}
+
 /* Estilos para o rodapé. */
 .footer {
     background-color: var(--cor-secundaria); /* Define a cor de fundo. */
     color: var(--cor-quinaria); /* Define a cor do texto. */
     text-align: center; /* Centraliza o texto. */
-    padding: 1.5rem; /* Adiciona espaçamento interno. */
-    position: relative; /* Define a posição relativa para controle. */
-    bottom: 0; /* Fixa o rodapé na parte inferior. */
+    padding: 2rem 1rem; /* Adiciona espaçamento interno. */
     width: 100%; /* Faz o rodapé ocupar toda a largura. */
-    margin-top: 2rem; /* Adiciona uma margem superior. */
+    margin-top: 3rem; /* Adiciona uma margem superior maior. */
+    box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.1); /* Adiciona sombra superior. */
 }
 
-/* Estilos para a lista não ordenada (ul) no rodapé. */
-.footer ul {
-    list-style: none; /* Remove os marcadores da lista. */
-    padding: 0; /* Remove o preenchimento padrão. */
-    margin: 0; /* Remove a margem padrão. */
+.footer-content {
+    max-width: 1200px; /* Limita a largura do conteúdo para centralizá-lo. */
+    margin: 0 auto; /* Centraliza o conteúdo. */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem; /* Espaçamento entre os elementos do rodapé. */
 }
 
-/* Estilos para os links (a) no rodapé. */
-.footer a {
-    color: var(--cor-quinaria); /* Define a cor do link. */
-    text-decoration: none; /* Remove o sublinhado. */
-    transition: color 0.3s ease; /* Adiciona uma transição suave. */
+.footer-tagline {
+    font-size: 1.1rem;
+    margin-bottom: 0.5rem;
+    font-family: var(--fonte-titulo);
+    font-weight: 600;
 }
 
-/* Estilos para os links (a) no rodapé ao passar o mouse. */
-.footer a:hover {
-    color: var(--cor-quaternaria); /* Muda a cor do link. */
+.footer-social {
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem; /* Espaçamento entre os links sociais. */
+    margin-bottom: 1rem;
+    flex-wrap: wrap; /* Permite que os links quebrem linha em telas menores. */
+}
+
+.social-link {
+    color: var(--cor-quinaria);
+    text-decoration: none;
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem; /* Espaçamento entre o ícone e o texto. */
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.social-link i {
+    font-size: 1.5rem; /* Tamanho do ícone. */
+}
+
+.social-link:hover {
+    color: var(--cor-quaternaria); /* Muda a cor ao passar o mouse. */
+    transform: translateY(-3px); /* Efeito de elevação ao passar o mouse. */
+}
+
+.footer-copyright {
+    font-size: 0.9rem;
+    opacity: 0.8;
+    margin-top: 1rem; /* Espaçamento acima do copyright. */
+}
+
+/* Estilos para a Seção de Boas-Vindas */
+.welcome-section {
+    text-align: center;
+    padding: 2rem 1rem;
+    margin-bottom: 1rem;
+}
+
+.welcome-section h2 {
+    font-family: var(--fonte-titulo);
+    color: var(--cor-terciaria);
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+}
+
+.welcome-section p {
+    font-family: var(--fonte-texto);
+    color: var(--cor-secundaria);
+    font-size: 1.1rem;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* Estilos para a Seção da Galeria */
+.gallery-section {
+    padding: 1rem 0;
+}
+
+.image-gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1.5rem;
+    padding: 1rem;
+}
+
+/* Estilos para o Item da Galeria e Título Overlay */
+.gallery-item {
+    position: relative;
+    overflow: hidden; /* Garante que o conteúdo extra não saia dos cantos arredondados */
+    border-radius: 8px; /* Combina com o border-radius da imagem */
+    box-shadow: var(--sombra-caixa);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+}
+
+.gallery-item:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.gallery-item img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    display: block; /* Remove qualquer espaço extra abaixo da imagem */
+}
+
+.gallery-title {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: rgba(25, 35, 56, 0.7); /* Fundo semitransparente usando a cor primária */
+    color: var(--cor-quinaria);
+    text-align: center;
+    padding: 8px 0;
+    font-family: var(--fonte-texto);
+    font-size: 1rem;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    pointer-events: none; /* Garante que o título não interfere no clique do item */
+}
+
+.gallery-item:hover .gallery-title {
+    opacity: 1;
+}
+
+/* Estilos para o Carrossel */
+#banner {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+}
+.banner-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.banner-content .img-wrapper {
+    max-width: 100%;
+}
+.banner-content .img-wrapper .img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+.banner-content .content-wrapper {
+    max-width: 90%;
+    padding: 2rem;
+}
+.banner-title {
+    font-size: 3rem;
+    font-weight: normal;
+}
+.text-primary {
+    color: var(--cor-terciaria) !important;
+}
+.swiper-pagination-bullet {
+    background-color: var(--cor-terciaria);
+}
+.swiper-pagination-bullet-active {
+    background-color: var(--cor-primaria);
 }
