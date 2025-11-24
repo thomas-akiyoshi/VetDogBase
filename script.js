@@ -29,6 +29,9 @@ document.addEventListener('DOMContentLoaded', () => {
             const img = document.createElement('img');
             img.src = `img/${dog.imagem}`;
             img.alt = `Cachorro da raça ${dog.nome}`;
+            img.onerror = () => {
+                console.error(`Failed to load image: ${img.src}`);
+            };
             
             // Cria o elemento do título
             const title = document.createElement('div');
@@ -60,7 +63,7 @@ document.addEventListener('DOMContentLoaded', () => {
             card.id = `card-${dog.nome.replace(/\s+/g, '-')}`; // Adiciona um ID único
 
             card.innerHTML = `
-                <img src="img/${dog.imagem}" alt="Cachorro da raça ${dog.nome}" class="card-img">
+                <img src="img/${dog.imagem}" alt="Cachorro da raça ${dog.nome}" class="card-img" onerror="console.error('Failed to load image: this.src');">
                 <h2>${dog.nome}</h2>
                 <p><strong>Porte:</strong> ${dog.porte}</p>
                 <p><strong>Temperamento:</strong> ${dog.temperamento}</p>
